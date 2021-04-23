@@ -1,0 +1,221 @@
+body {
+    font-family: "Montserrat";
+
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "montserrat";
+    font-weight: bold;
+}
+
+
+p {
+    color: #8f8f8f;
+}
+
+/* sections */
+
+.container-fluid {
+    padding: 7% 15% ;
+    
+
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+
+.white-section {
+    background-color: #fff
+
+}
+
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+
+}
+/* title  */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* navigation bar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+
+}
+
+
+
+
+/* Download Button */
+.download-button{
+    margin: 5% 3% 5% 0  ;
+}
+.container{
+    padding: 0;
+}
+
+/* Title image */
+.iphone {
+    width: 60%;
+    transform: rotate(20deg);
+                                    /* the element we want to go behind must have the position absolute  */
+    position: absolute;
+    right: 30%;
+}
+
+
+/* features section */
+#features {
+    
+    position: relative;
+                   /*and the element we want above should have position relative and z index 1.*/
+    
+    
+}
+
+
+
+.fe {
+    padding: 4%;
+    line-height: 2;
+    
+}
+
+
+.feature-heading {
+    font-size: 1.5rem;
+}
+.feature-icon {
+
+    margin: 2rem;
+    color: #ef8172;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+
+/* testimonials section */
+
+#testimonials {
+    
+    background-color: #ef8172;
+    
+    
+}
+
+.testimonial-text {
+    
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+
+
+.dogo {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricings */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.price-heading {
+    font-size: 1.5rem;
+}
+.pricing-card {
+    padding: 3% 2%;
+}
+
+
+/* CTA section */
+
+
+
+
+
+
+.cta-button {
+    margin: 7% 1% ;
+}
+
+
+/* footer section */
+#footer {
+    
+    padding: 5% ;
+}
+.footer-icon {
+    margin: 20px 10px;
+}
+
+
+/* media quories */
+@media (max-width: 990px) {
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+
+/* BAck to top button */
+.backtop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    float: right;
+    
+    
+}
